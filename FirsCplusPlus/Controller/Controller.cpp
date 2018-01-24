@@ -16,7 +16,6 @@ Controller :: Controller()
     << endl;
 }
 
-
  void Controller :: start()
 {
     

@@ -7,11 +7,14 @@
 //
 
 #include <iostream>
+#include "Controller.hpp"
 
  int main()
 {
+    Controller * app = new Controller();
     
+    (*app).start();
     
-    
+    app->start();
     return 0;
 }
